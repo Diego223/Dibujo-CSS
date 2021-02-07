@@ -1,0 +1,60 @@
+.baseroja {
+display: flex;
+   flex-direction: column;
+    align-self : flex-start;
+    margin-left:200px;
+
+   min-height: 10vh;
+
+  border-radius: 50px;
+  background: red;
+  padding: 60px;
+  width: 160px;
+  height: 10px;
+}
+article p:last-child {
+     position: absolute;
+    top: -65px;
+    left: 210px;
+
+    color: white;
+    font-size: 120px;
+    font-family: Oswald , sans-serif;
+  
+}
+article p:first-child{
+  position : absolute;
+  top:-65px;
+  left:-1px;
+  font-size:120px;
+}
+
+.baseroja2{
+  display: flex;
+  
+   flex-direction: column;
+    align-self : flex-start;
+    margin-left:600px;
+  margin-top:-190px;
+
+   min-height: 10vh;
+
+  border-radius: 50px;
+  background: red;
+  padding: 60px;
+  width: 160px;
+  height: 50px;
+  
+  
+}
+.triangulo{
+ display: flex;
+   flex-direction: column;
+    align-self : flex-start;
+  border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 80px solid white;
+  margin-left:705px;
+  margin-top:-155px;
+
+}
